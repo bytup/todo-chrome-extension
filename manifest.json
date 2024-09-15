@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Todo Extension",
+  "version": "1.0",
+  "description": "A simple todo list extension with local storage support",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["<all_urls>"]
+}
